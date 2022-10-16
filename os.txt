@@ -1,0 +1,1 @@
+Linux localhost 4.14.186-perf-g518a48be9a10 #1 SMP PREEMPT Fri Aug 19 12:18:33 WIB 2022 aarch64 Android
