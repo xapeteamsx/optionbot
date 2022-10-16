@@ -1,6 +1,7 @@
 # pkg update
 # pkg install build-essential clang make pkg-config binutils git wget python3
 # pkg install python-numpy ta-lib
+# pip install --upgrade pip
 wheel
 Cython
 pandas
