@@ -4,7 +4,9 @@ Termux cython compiled version bot for binomo
 2. pkg install build-essential clang make pkg-config binutils git wget python3
 3. pkg install python-numpy ta-lib
 4. pip install --upgrade pip
-5. install TA-lib (manual)
+5. install TA-lib (for manual installation see below)
+6. edit setting.json enter all required fields
+7. run "python3 main.py"
 
 # TA-Lib manual installation
 
@@ -22,6 +24,3 @@ Termux cython compiled version bot for binomo
 * python3 setup.py bdist_wheel
 * cd dist/
 * pip install TA_Lib-0.4.25-cp310-cp310-linux_aarch64.whl
-
-6. edit setting.json enter all required fields
-7. run "python3 main.py"
