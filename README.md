@@ -22,3 +22,6 @@ cd ta-lib/
 python3 setup.py bdist_wheel
 cd dist/
 pip install TA_Lib-0.4.25-cp310-cp310-linux_aarch64.whl
+
+6. edit setting.json enter all required fields
+7. run "python3 main.py"
