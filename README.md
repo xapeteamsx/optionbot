@@ -9,7 +9,7 @@ Termux cython compiled version bot for binomo
 6. edit setting.json enter all required fields
 7. run "python3 main.py"
 
-# TA-Lib manual installation
+# TA-Lib manual installation (termux)
 
 # step 1
 * wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
