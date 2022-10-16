@@ -1,0 +1,13 @@
+# pkg install python-numpy
+# pkg install ta-lib
+Cython
+pandas
+python-dateutil
+datetime
+tapy
+pandas-ta
+telethon
+requests
+pathlib
+asyncio
+
