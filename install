@@ -1,15 +1,17 @@
+TA-Lib manual installation
 
+# step 1
+wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
+tar -xzvf ta-lib-0.4.0-src.tar.gz
+cd ta-lib/
+termux-fix-shebang configure                     
+./configure --prefix=$PREFIX -build=arm          
+make                                             
+make install
 
-
-
-wget http://prdownloads.sourceforge.net/ta-lib/ta
--lib-0.4.0-src.tar.gz
-   18  tar -xzvf ta-lib-0.4.0-src.tar.gz
-
-
-pkg install ta-lib                                  64  ls                                                  65  python3 binomo.py                                   66  pip install TA-Lib                                  67  python3 binomo.py                                   68  MATHLIB="m" pip3 install numpy                      69  cd..                                                70  cd ..                                               71  ls                                                  72  cd ta-lib/                                          73  ls                                                  74  ./configure --prefix=$PREFIX -build=arm             75  which egrep                                         76  pkg install binutils                                77  ./configure --prefix=$PREFIX -build=arm             78  make                                                79  make DESTDIR=$PREFIX install                        80  pip install ta-lib                                  81  pip install talib                                   82  termux-fix-shebang                                  83  termux-fix-shebang configure                        84  ./configure --prefix=$PREFIX -build=arm             85  make                                                86  make install
-
-
-
-99  git clone https://github.com/mrjbq7/ta-lib         100  pkg install git                                    101  git clone https://github.com/mrjbq7/ta-lib         102  ls                                                 103  cd ta-lib/                                         104  ls                                                 105  cat requirements.txt                               106  python3 setup.py bdist_wheel                       107  python3 setup.py --help                            108  python3 setup.py --platforms                       109  pip install wheel                                  110  python3 setup.py bdist_wheel                       111  cd dist/                                           112  ls                                                 113  pip install TA_Lib-0.4.25-cp310-cp310-linux_aarch64.whl
-
+# step 2
+git clone https://github.com/mrjbq7/ta-lib         
+cd ta-lib/                                    
+python3 setup.py bdist_wheel                      
+cd dist/                                          
+pip install TA_Lib-0.4.25-cp310-cp310-linux_aarch64.whl
