@@ -1,5 +1,6 @@
 # pkg install python-numpy
 # pkg install ta-lib
+wheel
 Cython
 pandas
 python-dateutil
@@ -10,4 +11,3 @@ telethon
 requests
 pathlib
 asyncio
-
